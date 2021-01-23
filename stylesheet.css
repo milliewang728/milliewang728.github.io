@@ -130,3 +130,15 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
